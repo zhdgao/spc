@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/zhdgao/spc.git'
 
                 // Run Maven on a Unix agent.
-                sh 'mvn clean package' 
+                sh 'mvn package' 
             }
 
             //post {
